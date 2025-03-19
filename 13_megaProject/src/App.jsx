@@ -4,7 +4,7 @@ import { login, logout } from './store/authSlice';
 import authService from './appwrite/auth';
 import { Outlet } from 'react-router-dom';
 import {Header} from './components/Header/Header';
-import { Footer } from './components/Footer/Footer';
+import  Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
